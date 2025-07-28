@@ -36,11 +36,11 @@ const VideoHero = ({
 			{/* Contenido del Hero */}
 			<div className="hero-content text-center relative z-20">
 				<div className="max-w-4xl text-white">
-					<h1 className="text-5xl font-bold mb-6 drop-shadow-lg">{title}</h1>
-					<p className="text-xl mb-8 drop-shadow-md opacity-90">
+					<h1 className="lg:text-[100px] text-[80px] font-bold mb-6 drop-shadow-lg">{title}</h1>
+					<p className="lg:text-[40px] text-[25px] mb-8 drop-shadow-md opacity-90">
 						{subtitle}
 					</p>
-					<button className="btn btn-primary btn-lg shadow-lg">
+					<button className="btn btn-primary btn-xl shadow-lg rounded-xl">
 						{buttonText}
 					</button>
 				</div>

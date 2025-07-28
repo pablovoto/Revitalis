@@ -7,12 +7,14 @@ import Contact from './pages/Contact';
 import DepilacionLaser from './pages/DepilacionLaser';
 import MedicinaEstetica from './pages/MedicinaEstetica';
 import EsteticaAvanzada from './pages/EsteticaAvanzada';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
         <Header />
+        <ScrollToTop />
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />

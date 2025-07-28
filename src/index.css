@@ -3,3 +3,8 @@
 @plugin "daisyui" {
 	themes: nord --default;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  @apply bg-base-100
+}
